@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0e0e0e;
+}
+
+
+/***********************    NAVBAR    *******************/
+
+a.nav-link:hover {
+    color: orange;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: #000000 !important;
+    padding: 15px 0;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255) !important;
+}
+
+/**************************************/
+
+.header {
+    background-color: #0e0e0e;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.butt {
+    background-color: black;
+    color: white;
+    border: 0.1px gray solid;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 160px;
+    box-shadow: 0 0 1px #fff;
+}
+
+section {
+    background-color: #0e0e0e;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.audcard {
+    width: 275px;
+    margin: 20px;
+    border: 1px solid #5d5d5d;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #282828;
+}
+
+.audcard:hover {
+    box-shadow:0 0 10px rgb(255, 255, 255, 0.5);
+    transform: scale(1.04);
+}
+
+.audcard img {
+    width: 100%;
+    height: 200px;
+}
+
+.audcard-details {
+    color: white;
+    padding: 10px;
+}
+.audcard-details p{
+    margin: 5px auto;
+}
+
+@media (max-width: 992px) {
+    .dance-card {
+        width: calc(50% - 20px);
+        /* Two cards per row with spacing */
+    }
+}
+
+@media (max-width: 768px) {
+    .dance-card {
+        width: calc(100% - 20px);
+        /* One card per row with spacing */
+        margin-right: 0;
+    }
+}
+
+.modal-title{
+    margin-bottom: 10px;
+}
+
+.heading{
+    margin-bottom: 20px !important;
+}
+
+
+.modal-content{
+    background-color: #282828 !important;
+    color: white !important;
+    box-shadow: 0 0 10px rgba(171, 171, 171, 0.5);
+}
+/****************** footer **************/
+
+.hov p:hover {
+    color: orange;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.row a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot {
+    background-color: #000000;
+    color: #fff;
+}

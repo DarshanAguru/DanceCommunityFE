@@ -1,0 +1,175 @@
+body{
+    background-color: #0d0d0d;
+}
+
+/***********************    NAVBAR    *******************/
+
+a.nav-link:hover {
+    color: orange;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: #000000 !important;
+    padding: 15px 0;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255) !important;
+}
+
+/*************************************/
+
+.header {
+    background-color: #0e0e0e;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+.butt{
+    background-color: black;
+    color: white;
+    border: 0.1px gray solid;
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 160px;
+    box-shadow: 0 0 1px #fff;
+}
+
+
+.class-card {
+    background-color: #0d0d0d;
+    border: 0.1px rgb(56, 56, 56) solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(150, 149, 149, 0.1);
+    margin: 10px;
+    margin-bottom: 50px;
+    padding: 1px;
+    text-align: center;
+    display: inline-block;
+    width: calc(33% - 20px);
+    /* Adjust according to your layout */
+    vertical-align: top;
+}
+
+.class-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.class-card h5 {
+    color: white;
+}
+
+.class-card .btn {
+    background-color: #101010;
+    color: whitesmoke;
+    border: 0.1px rgb(199, 199, 255) solid;
+    padding: 7px 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.class-card .btn:hover {
+    background-color: #101010;
+    color: orange;
+    border: 0.1px rgb(255, 64, 64) solid;
+}
+
+.classes-section {
+    background-color: #0e0e0e;
+    padding: 20px 150px;
+}
+
+.guru-section {
+    text-align: center;
+    background-color: #282828;
+}
+
+.guru-section h2{
+    padding-top: 20px;
+    color: white;
+}
+
+.guru-card h5 {
+    margin: 10px 0;
+}
+
+.gurus {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minimum and maximum width of each column */
+    gap: 20px; /* Increase the gap between cards */
+    background-color: #282828;
+    padding: 20px; /* Add padding to the grid container */
+}
+
+.guru-card {
+    margin: 0; /* Remove margin to maintain consistent spacing */
+    padding: 10px; /* Add padding to the cards */
+    text-align: center; /* Center align content */
+}
+
+.guru-card img {
+    width: 150px; /* Set image width to 100% of its container */
+    max-width: 150px; /* Limit maximum width */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .gurus {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust column width for larger screens */
+    }
+}
+
+.modal-content {
+    background-color: #282828 !important;
+    color: white !important;
+  }
+
+
+  
+
+/****************** footer **************/
+
+.hov p:hover {
+    color: orange;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.row a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot {
+    background-color: #000000;
+    color: #fff;
+}

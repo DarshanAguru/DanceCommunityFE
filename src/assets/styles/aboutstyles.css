@@ -1,0 +1,73 @@
+body{
+    background-color: #0e0e0e;
+
+}
+/***********************    NAVBAR    *******************/
+
+a.nav-link:hover {
+    color: orange;
+}
+
+a.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: #000000 !important;
+    padding: 15px 0;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255) !important;
+}
+
+/*************************************/
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px;
+    background-color: #0e0e0e;
+    color: #fff;
+}
+
+.container{
+    
+    box-shadow: 0 0 10px rgb(255, 255, 255, 0.2); 
+    color: white;
+}
+
+/****************** footer **************/
+
+.hov p:hover {
+    color: orange;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.row a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.foot {
+    background-color: #000000;
+    color: #fff;
+}
